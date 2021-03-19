@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5AE6BFD260410DC00410C5C /* HomeSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE6BFC260410DC00410C5C /* HomeSafe.swift */; };
 		D5F5D71926000EB80003FC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71826000EB80003FC25 /* AppDelegate.swift */; };
 		D5F5D71B26000EB80003FC25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71A26000EB80003FC25 /* SceneDelegate.swift */; };
-		D5F5D71D26000EB80003FC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71C26000EB80003FC25 /* ViewController.swift */; };
 		D5F5D72026000EB80003FC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F5D71E26000EB80003FC25 /* Main.storyboard */; };
 		D5F5D72326000EB80003FC25 /* ScheDuel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D72126000EB80003FC25 /* ScheDuel.xcdatamodeld */; };
 		D5F5D72526000EBB0003FC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F5D72426000EBB0003FC25 /* Assets.xcassets */; };
 		D5F5D72826000EBB0003FC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F5D72626000EBB0003FC25 /* LaunchScreen.storyboard */; };
 		D5F5D73326000EBC0003FC25 /* ScheDuelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D73226000EBC0003FC25 /* ScheDuelTests.swift */; };
 		D5F5D73E26000EBC0003FC25 /* ScheDuelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D73D26000EBC0003FC25 /* ScheDuelUITests.swift */; };
+		D5F5F5022603F16600354E01 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F5012603F16600354E01 /* Home.swift */; };
+		D5F5F5072603F17100354E01 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F5062603F17100354E01 /* Checklist.swift */; };
+		D5F5F50C2603F21300354E01 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F50B2603F21300354E01 /* Calendar.swift */; };
+		D5F5F5112603F22000354E01 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F5102603F22000354E01 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5AE6BFC260410DC00410C5C /* HomeSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSafe.swift; sourceTree = "<group>"; };
 		D5F5D71526000EB80003FC25 /* ScheDuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheDuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F5D71826000EB80003FC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5F5D71A26000EB80003FC25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5F5D71C26000EB80003FC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5F5D71F26000EB80003FC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5F5D72226000EB80003FC25 /* ScheDuel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScheDuel.xcdatamodel; sourceTree = "<group>"; };
 		D5F5D72426000EBB0003FC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +56,10 @@
 		D5F5D73D26000EBC0003FC25 /* ScheDuelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheDuelUITests.swift; sourceTree = "<group>"; };
 		D5F5D73F26000EBC0003FC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5F5D74E26000F010003FC25 /* ScheDuel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScheDuel.entitlements; sourceTree = "<group>"; };
+		D5F5F5012603F16600354E01 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D5F5F5062603F17100354E01 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		D5F5F50B2603F21300354E01 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		D5F5F5102603F22000354E01 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +113,12 @@
 				D5F5D74E26000F010003FC25 /* ScheDuel.entitlements */,
 				D5F5D71826000EB80003FC25 /* AppDelegate.swift */,
 				D5F5D71A26000EB80003FC25 /* SceneDelegate.swift */,
-				D5F5D71C26000EB80003FC25 /* ViewController.swift */,
 				D5F5D71E26000EB80003FC25 /* Main.storyboard */,
+				D5F5F5012603F16600354E01 /* Home.swift */,
+				D5AE6BFC260410DC00410C5C /* HomeSafe.swift */,
+				D5F5F5062603F17100354E01 /* Checklist.swift */,
+				D5F5F50B2603F21300354E01 /* Calendar.swift */,
+				D5F5F5102603F22000354E01 /* Settings.swift */,
 				D5F5D72426000EBB0003FC25 /* Assets.xcassets */,
 				D5F5D72626000EBB0003FC25 /* LaunchScreen.storyboard */,
 				D5F5D72926000EBB0003FC25 /* Info.plist */,
@@ -263,10 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F5D71D26000EB80003FC25 /* ViewController.swift in Sources */,
+				D5AE6BFD260410DC00410C5C /* HomeSafe.swift in Sources */,
 				D5F5D71926000EB80003FC25 /* AppDelegate.swift in Sources */,
+				D5F5F5112603F22000354E01 /* Settings.swift in Sources */,
+				D5F5F5072603F17100354E01 /* Checklist.swift in Sources */,
+				D5F5F5022603F16600354E01 /* Home.swift in Sources */,
 				D5F5D72326000EB80003FC25 /* ScheDuel.xcdatamodeld in Sources */,
 				D5F5D71B26000EB80003FC25 /* SceneDelegate.swift in Sources */,
+				D5F5F50C2603F21300354E01 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
