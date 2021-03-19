@@ -6,14 +6,26 @@
 //
 
 import UIKit
-
 class HomeSafe: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.clipsToBounds = true
+    }
+    override func viewWillLayoutSubviews(){
+        //https://kevindew.me/post/18579273258/where-to-progmatically-lay-out-views-in-ios-5-and
+        clearView()
         update()
+        //clearview needs to  be called twice becauase of multithreading 
+    }
+    @objc func clearView(){
+        var i = 0
+        while (i < self.view.subviews.count) {
+            self.view.willRemoveSubview(self.view.subviews[i])
+            self.view.subviews[i].removeFromSuperview()
+            i = i + 1;
+        }
     }
     @objc func update(){
+        clearView()
         var containerStack : [UICustomObject] = []
         //Defining my own vertical stack for the home screen as an array of stuff
         let title = UICustomObject(element: 4)
