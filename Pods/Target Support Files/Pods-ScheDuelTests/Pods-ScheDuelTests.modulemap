@@ -1,0 +1,6 @@
+framework module Pods_ScheDuelTests {
+  umbrella header "Pods-ScheDuelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
