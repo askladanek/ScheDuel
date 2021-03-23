@@ -15,7 +15,7 @@
             <objects>
                 <viewController id="bwW-aT-OPa" customClass="Home" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yeo-CP-hF9">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YLx-GA-pkX">
@@ -34,11 +34,11 @@
                                 <color key="tintColor" name="BarColor"/>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jpa-Wo-Yt3">
-                                <rect key="frame" x="16" y="81" width="359" height="680"/>
+                                <rect key="frame" x="16" y="81" width="359" height="763"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-22-UcT">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="680"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="763"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <connections>
                                             <segue destination="h3J-3l-vCx" kind="embed" id="CZh-cS-hDC"/>
@@ -85,7 +85,7 @@
             <objects>
                 <viewController title="Calendar" id="5kn-Zj-sBO" customClass="Calendar" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gez-Eq-IvX">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9id-AL-h6a">
@@ -104,7 +104,7 @@
                                 <color key="tintColor" name="BarColor"/>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Wn-LN-QaW">
-                                <rect key="frame" x="0.0" y="81" width="390" height="680"/>
+                                <rect key="frame" x="0.0" y="81" width="390" height="763"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
                                     <segue destination="LEx-iG-5gB" kind="embed" id="otp-aw-aMz"/>
@@ -140,7 +140,7 @@
             <objects>
                 <viewController title="Settings" id="LGm-Zw-QSS" customClass="Settings" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E5N-Hf-Etp">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncA-g6-GYg">
@@ -159,7 +159,7 @@
                                 <color key="tintColor" name="BarColor"/>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g3Q-wd-PqX">
-                                <rect key="frame" x="16" y="80" width="358" height="678"/>
+                                <rect key="frame" x="16" y="80" width="358" height="761"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
                                     <segue destination="zS0-fk-kDu" kind="embed" id="O2i-fE-Ttb"/>
@@ -403,7 +403,7 @@
             <objects>
                 <viewController id="lLf-rn-O77" customClass="Checklist" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XhH-tB-ejE">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHY-nu-GWs">
@@ -483,7 +483,7 @@
             <objects>
                 <viewController title="Week View" id="92q-wS-1hB" customClass="CalendarWeek" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5uG-af-sbf">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="714"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="763"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="t43-Sa-yXr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -501,7 +501,7 @@
             <objects>
                 <viewController title="Month View" id="3Rc-MP-Yys" customClass="CalendarMonth" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s25-YQ-1JJ">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="714"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="763"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="zR2-xE-ZME"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -541,15 +541,15 @@
             <objects>
                 <viewController title="Day View" id="cTd-hg-MXT" customClass="CalendarDay" customModule="ScheDuel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1MH-bo-fJC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="714"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="763"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="giy-8i-LjV">
-                                <rect key="frame" x="16" y="13" width="299" height="53"/>
+                                <rect key="frame" x="16" y="13" width="299" height="58"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrT-ue-bfa">
-                                        <rect key="frame" x="0.0" y="3" width="56" height="47"/>
+                                        <rect key="frame" x="0.0" y="3" width="56" height="52"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <color key="tintColor" name="IconColor"/>
                                         <state key="normal" title="Previous Day" backgroundImage="arrow.left" catalog="system">
@@ -557,7 +557,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSc-px-Gfr">
-                                        <rect key="frame" x="243" y="3" width="56" height="47"/>
+                                        <rect key="frame" x="243" y="3" width="56" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
                                         <color key="tintColor" name="IconColor"/>
                                         <state key="normal" title="Next Day" backgroundImage="arrow.right" catalog="system">
@@ -565,7 +565,7 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tuesday, March 23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="al4-1v-mDs">
-                                        <rect key="frame" x="62" y="0.0" width="175" height="54"/>
+                                        <rect key="frame" x="62" y="0.0" width="175" height="59"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -727,11 +727,11 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bg-uY-SNt">
-                                <rect key="frame" x="318" y="13" width="56" height="53"/>
+                                <rect key="frame" x="318" y="13" width="56" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmb-6i-MZF">
-                                        <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="61"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="tintColor" name="IconColor"/>
                                         <state key="normal" title="Add Event" backgroundImage="plus.app.fill" catalog="system">
