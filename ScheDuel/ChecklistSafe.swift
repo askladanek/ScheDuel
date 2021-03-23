@@ -72,7 +72,7 @@ class ChecklistSafe: UIViewController {
             
             
             
-            txtField.backgroundColor = UIColor.white
+            txtField.backgroundColor = UIColor.systemBackground
             popupView.addSubview(txtField)
 
             
@@ -155,7 +155,7 @@ class ChecklistSafe: UIViewController {
             
           
         
-    }
+}
     
 
 class PopUpWindow: UIViewController {
@@ -244,7 +244,7 @@ class PopUpWindow: UIViewController {
             numField.keyboardType = .decimalPad
             numField.translatesAutoresizingMaskIntoConstraints = false
             numField.setCorner(radius: 5)
-            numField.backgroundColor = UIColor.white
+            numField.backgroundColor = UIColor.systemBackground
             popupView.addSubview(numField)
 
             
@@ -252,17 +252,17 @@ class PopUpWindow: UIViewController {
            
             txtField.borderStyle = UITextField.BorderStyle.line
             
-            txtField.backgroundColor = UIColor.white
-            numField.backgroundColor = UIColor.white
+            txtField.backgroundColor = UIColor.systemBackground
+            numField.backgroundColor = UIColor.systemBackground
             numField.placeholder = "Input Number of Steps Here"
-            numField.textColor = UIColor.gray
-            txtField.textColor = UIColor.gray
+            numField.textColor = UIColor.label
+            txtField.textColor = UIColor.label
             popupView.addSubview(txtField)
 
             
             
             // Popup Button
-            popupButton.setTitleColor(UIColor.white, for: .normal)
+            popupButton.setTitleColor(UIColor.label, for: .normal)
             popupButton.titleLabel?.font = UIFont.systemFont(ofSize: 23.0, weight: .bold)
             popupButton.backgroundColor = UIColor(red:0.25, green:0.37, blue:0.53, alpha:1) //
          
@@ -514,8 +514,7 @@ class PopUpWindowGoal: UIViewController {
                
                 
                 if(label.text=="Today: "){
-                    let button = UIButton(frame: CGRect(x: 200, y: CGFloat(i) * seperation, width:(0.5 * seperation), height: seperation))
-               
+                    let button = UIButton(frame: CGRect(x: width - seperation, y: CGFloat(i) * seperation, width:(0.75 * seperation), height: 0.75 * seperation))
                 button.setImage( UIImage.init(systemName: "plus.circle"), for: UIControl.State.normal)
                 button.setImage( UIImage.init(systemName: "plus.circle.fill"), for: UIControl.State.highlighted)
                 button.addTarget(self, action:#selector(handleAddCheck), for: .touchUpInside)
@@ -523,7 +522,7 @@ class PopUpWindowGoal: UIViewController {
                     self.view.addSubview(button)
                 }
                 if(label.text=="Long Term Goals: "){
-                    let button2 = UIButton(frame: CGRect(x: 200, y: CGFloat(i) * seperation, width:(0.5 * seperation), height: seperation))
+                    let button2 = UIButton(frame: CGRect(x: width - seperation, y: CGFloat(i) * seperation, width:(0.75 * seperation), height: 0.75 * seperation))
                     button2.setImage( UIImage.init(systemName: "plus.circle"), for: UIControl.State.normal)
                     button2.setImage( UIImage.init(systemName: "plus.circle.fill"), for: UIControl.State.highlighted)
                     button2.addTarget(self, action:#selector(handleAddGoal), for: .touchUpInside)
@@ -552,7 +551,6 @@ class PopUpWindowGoal: UIViewController {
                 else{
                     button.setImage( UIImage.init(systemName: "squareshape"), for: UIControl.State.normal)
                 }
-                
                 button.tag = containerStack[i].objPos
                 button.addTarget(self, action:#selector(handleCheck), for: .touchUpInside)
                 

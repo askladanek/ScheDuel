@@ -15,6 +15,7 @@
 		D54F1CDA26099E6100605F60 /* CalendarWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1CD926099E6100605F60 /* CalendarWeek.swift */; };
 		D54F1CE226099E7000605F60 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1CE126099E7000605F60 /* CalendarDay.swift */; };
 		D5AE6BFD260410DC00410C5C /* HomeSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE6BFC260410DC00410C5C /* HomeSafe.swift */; };
+		D5DF256A260A44FF0060AEDB /* CalendarSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF2569260A44FF0060AEDB /* CalendarSafe.swift */; };
 		D5F5D71926000EB80003FC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71826000EB80003FC25 /* AppDelegate.swift */; };
 		D5F5D71B26000EB80003FC25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71A26000EB80003FC25 /* SceneDelegate.swift */; };
 		D5F5D72026000EB80003FC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F5D71E26000EB80003FC25 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		D54F1CD926099E6100605F60 /* CalendarWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeek.swift; sourceTree = "<group>"; };
 		D54F1CE126099E7000605F60 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		D5AE6BFC260410DC00410C5C /* HomeSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSafe.swift; sourceTree = "<group>"; };
+		D5DF2569260A44FF0060AEDB /* CalendarSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSafe.swift; sourceTree = "<group>"; };
 		D5F5D71526000EB80003FC25 /* ScheDuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheDuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F5D71826000EB80003FC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5F5D71A26000EB80003FC25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				D54F1CD926099E6100605F60 /* CalendarWeek.swift */,
 				D54F1CE126099E7000605F60 /* CalendarDay.swift */,
 				D5F5F5102603F22000354E01 /* Settings.swift */,
+				D5DF2569260A44FF0060AEDB /* CalendarSafe.swift */,
 				D5F5D72426000EBB0003FC25 /* Assets.xcassets */,
 				D5F5D72626000EBB0003FC25 /* LaunchScreen.storyboard */,
 				D5F5D72926000EBB0003FC25 /* Info.plist */,
@@ -303,6 +306,7 @@
 				D54F1C85260982FE00605F60 /* SettingsSafe.swift in Sources */,
 				D54F1C902609866200605F60 /* Checklist.swift in Sources */,
 				D5F5D72326000EB80003FC25 /* ScheDuel.xcdatamodeld in Sources */,
+				D5DF256A260A44FF0060AEDB /* CalendarSafe.swift in Sources */,
 				D5F5D71B26000EB80003FC25 /* SceneDelegate.swift in Sources */,
 				D54F1CDA26099E6100605F60 /* CalendarWeek.swift in Sources */,
 				D54F1CAA26098CF800605F60 /* CalendarMonth.swift in Sources */,
