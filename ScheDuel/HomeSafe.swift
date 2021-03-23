@@ -36,19 +36,23 @@ class HomeSafe: UIViewController {
         let remindersLabel = UICustomObject(element: 0)
         remindersLabel.text = "Reminders: "
         containerStack.append(remindersLabel)  //2
-        let defaultReminder = reminder(text: "test", time: 0, date: 0)
-        reminderList.append(defaultReminder)
-        let defaultReminderUI = UICustomObject(element: 3, text: defaultReminder.text, pos: 0)
-        containerStack.append(defaultReminderUI)
         //add reminders list to position 3
+        var it = 0
+        while (it < reminderList.count){
+            let defaultReminderUI = UICustomObject(element: 3, text: reminderList[it].time + " | " + reminderList[it].text, pos: 0)
+            containerStack.append(defaultReminderUI)
+            it = it + 1
+        }
         containerStack.append(bar)
         let whatsNextLabel = UICustomObject(element: 0)//4+reminders
         whatsNextLabel.text = "What's Next: "
         containerStack.append(whatsNextLabel)//5+reminders
-        let defaultCalEvent = calEvent(text: "test", time: 0, duration: 1, date: 0)
-        eventList.append(defaultCalEvent)
-        let defaultCalEventUI = UICustomObject(element: 2, text: defaultReminder.text, pos: 0)
-        containerStack.append(defaultCalEventUI)
+        it = 0
+        while (it < eventList.count){
+            let defaultCalEventUI = UICustomObject(element: 2, text: eventList[it].time + " | " + eventList[it].text, pos: 0)
+            containerStack.append(defaultCalEventUI)
+            it = it + 1
+        }
         //Everything above is adding elements to my array for my vertical stack
         //Now i will turn them into real objects and display them!
         let height = self.view.bounds.height
@@ -87,7 +91,7 @@ class HomeSafe: UIViewController {
                 label.frame = fullFrame
                 label.frame.origin.y += (CGFloat(i) * seperation)
                 label.frame.origin.x += seperation/2.0
-                label.text = String(eventList[containerStack[i].objPos].time) + " " + eventList[containerStack[i].objPos].text
+                label.text = containerStack[i].text
                 self.view.addSubview(label)
                 break;
             case 3://reminder
@@ -99,7 +103,7 @@ class HomeSafe: UIViewController {
                 label.frame = fullFrame
                 label.frame.origin.y += (CGFloat(i) * seperation)
                 label.frame.origin.x += seperation/2.0
-                label.text = String(reminderList[containerStack[i].objPos].time) + " " + reminderList[containerStack[i].objPos].text
+                label.text = containerStack[i].text
                 self.view.addSubview(label)
                 break;
             case 4://title

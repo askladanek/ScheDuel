@@ -35,7 +35,7 @@ class ChecklistSafe: UIViewController {
         let timePicker: UIDatePicker = UIDatePicker()
   
         
-        let BorderWidth: CGFloat = 2.0
+        let BorderWidth: CGFloat = 1.5
         
         
         init() {
@@ -49,7 +49,7 @@ class ChecklistSafe: UIViewController {
            
             popupView.layer.borderWidth = BorderWidth
             popupView.layer.masksToBounds = true
-            popupView.layer.borderColor = UIColor.white.cgColor
+            popupView.layer.borderColor = UIColor.systemBackground.cgColor
             popupView.backgroundColor = UIColor.gray
            
 
@@ -58,7 +58,7 @@ class ChecklistSafe: UIViewController {
                 timePicker.datePickerMode = .time
                 //timePicker.frame = CGRect(x: 10, y: 50, width: popupView.frame.width, height: 200)
                 timePicker.timeZone = NSTimeZone.local
-                timePicker.backgroundColor = UIColor.white
+            timePicker.backgroundColor = UIColor.systemBackground
                 timePicker.addTarget(self, action: #selector(datePickerValueChanged), for: .valueChanged)
                 timePicker.translatesAutoresizingMaskIntoConstraints = false
             
@@ -78,7 +78,7 @@ class ChecklistSafe: UIViewController {
             
             
             // Popup Button
-            popupButton.setTitleColor(UIColor.white, for: .normal)
+            popupButton.setTitleColor(UIColor.systemBackground, for: .normal)
             popupButton.titleLabel?.font = UIFont.systemFont(ofSize: 23.0, weight: .bold)
             popupButton.backgroundColor = UIColor(red:0.25, green:0.37, blue:0.53, alpha:1)
         
@@ -167,7 +167,7 @@ class PopUpWindow: UIViewController {
     init(reference: ChecklistSafe?) {
         super.init(nibName: nil, bundle: nil)
         modalTransitionStyle = .crossDissolve
-         modalPresentationStyle = .overFullScreen
+        modalPresentationStyle = .popover
                 
         popUpWindowView.ref = reference
        
@@ -191,8 +191,11 @@ class PopUpWindow: UIViewController {
            // var callbackClosure: ((Void) -> Void)?
         let txt2 = ""
         if(popUpWindowView.txtField.text != ""){
-        let newCheck = check(text: popUpWindowView.txtField.text ?? txt2, time: popUpWindowView.selectedDate, completed: false)
-        checkLists.append(newCheck)
+            let newCheck = check(text: popUpWindowView.txtField.text ?? txt2, time: popUpWindowView.selectedDate, completed: false)
+            checkLists.append(newCheck)
+            if (popUpWindowView.selectedDate != ""){
+                eventList.append(calEvent(text: popUpWindowView.txtField.text!, time: popUpWindowView.selectedDate, duration: "0", date: "0"))
+            }
         }
         popUpWindowView.ref?.clearView()
         popUpWindowView.ref?.update()

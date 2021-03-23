@@ -12,10 +12,10 @@ var eventList: [calEvent] = []
 
 class reminder { //object class to be stored
     var text = "" //title
-    var time = 0 //time will be handled on a 0000-2359 basis
-    var date = 0 //handled on a 1-365 basis
+    var time = "" //time will be handled on a 0000-2359 basis
+    var date = "" //handled on a 1-365 basis
     var repeating = 0 //0 means not, 1 is hourly, 2 daily, 3 weekly, 4 monthly, 5 yearly
-    init(text: String, time: Int, date: Int){
+    init(text: String, time: String, date: String){
         self.text = text
         self.time = time
         self.date = date
@@ -25,13 +25,13 @@ class reminder { //object class to be stored
 
 class calEvent{ //object class to be stored
     var text = "" //title
-    var time = 0 //time will be handled on a 0000-2359 basis
-    var duration = 0 //in minutes
-    var date = 0 //handled on a 1-365 basis
+    var time = "" //time will be handled on a 0000-2359 basis
+    var duration = "" //in minutes
+    var date = "" //handled on a 1-365 basis
     var repeating = 0 //0 means not, 1 is hourly, 2 daily, 3 weekly, 4 monthly, 5 yearly
     var color = 0 //for distinguishing which "calander" to put under
     var notes = "" //extra written details
-    init(text: String, time: Int, duration: Int, date: Int){
+    init(text: String, time: String, duration: String, date: String){
         self.text = text
         self.time = time
         self.duration = duration
