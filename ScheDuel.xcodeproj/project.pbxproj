@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		D54F1C85260982FE00605F60 /* SettingsSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1C83260982FD00605F60 /* SettingsSafe.swift */; };
 		D54F1C86260982FE00605F60 /* UITextVieww_Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1C84260982FE00605F60 /* UITextVieww_Additions.swift */; };
+		D54F1C8F2609866200605F60 /* ChecklistSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1C8D2609866200605F60 /* ChecklistSafe.swift */; };
+		D54F1C902609866200605F60 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1C8E2609866200605F60 /* Checklist.swift */; };
+		D54F1CAA26098CF800605F60 /* CalendarMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1CA926098CF800605F60 /* CalendarMonth.swift */; };
+		D54F1CDA26099E6100605F60 /* CalendarWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1CD926099E6100605F60 /* CalendarWeek.swift */; };
+		D54F1CE226099E7000605F60 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F1CE126099E7000605F60 /* CalendarDay.swift */; };
 		D5AE6BFD260410DC00410C5C /* HomeSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE6BFC260410DC00410C5C /* HomeSafe.swift */; };
 		D5F5D71926000EB80003FC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71826000EB80003FC25 /* AppDelegate.swift */; };
 		D5F5D71B26000EB80003FC25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D71A26000EB80003FC25 /* SceneDelegate.swift */; };
@@ -19,7 +24,6 @@
 		D5F5D73326000EBC0003FC25 /* ScheDuelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D73226000EBC0003FC25 /* ScheDuelTests.swift */; };
 		D5F5D73E26000EBC0003FC25 /* ScheDuelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D73D26000EBC0003FC25 /* ScheDuelUITests.swift */; };
 		D5F5F5022603F16600354E01 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F5012603F16600354E01 /* Home.swift */; };
-		D5F5F5072603F17100354E01 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F5062603F17100354E01 /* Checklist.swift */; };
 		D5F5F50C2603F21300354E01 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F50B2603F21300354E01 /* Calendar.swift */; };
 		D5F5F5112603F22000354E01 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F5102603F22000354E01 /* Settings.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +48,11 @@
 /* Begin PBXFileReference section */
 		D54F1C83260982FD00605F60 /* SettingsSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSafe.swift; sourceTree = "<group>"; };
 		D54F1C84260982FE00605F60 /* UITextVieww_Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextVieww_Additions.swift; sourceTree = "<group>"; };
+		D54F1C8D2609866200605F60 /* ChecklistSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistSafe.swift; sourceTree = "<group>"; };
+		D54F1C8E2609866200605F60 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Checklist.swift; path = "../../../Downloads/ScheDuel-3/ScheDuel/Checklist.swift"; sourceTree = "<group>"; };
+		D54F1CA926098CF800605F60 /* CalendarMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonth.swift; sourceTree = "<group>"; };
+		D54F1CD926099E6100605F60 /* CalendarWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeek.swift; sourceTree = "<group>"; };
+		D54F1CE126099E7000605F60 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		D5AE6BFC260410DC00410C5C /* HomeSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSafe.swift; sourceTree = "<group>"; };
 		D5F5D71526000EB80003FC25 /* ScheDuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheDuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F5D71826000EB80003FC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +70,6 @@
 		D5F5D73F26000EBC0003FC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5F5D74E26000F010003FC25 /* ScheDuel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScheDuel.entitlements; sourceTree = "<group>"; };
 		D5F5F5012603F16600354E01 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		D5F5F5062603F17100354E01 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		D5F5F50B2603F21300354E01 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		D5F5F5102603F22000354E01 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,8 +128,12 @@
 				D5F5D71E26000EB80003FC25 /* Main.storyboard */,
 				D5F5F5012603F16600354E01 /* Home.swift */,
 				D5AE6BFC260410DC00410C5C /* HomeSafe.swift */,
-				D5F5F5062603F17100354E01 /* Checklist.swift */,
+				D54F1C8E2609866200605F60 /* Checklist.swift */,
+				D54F1C8D2609866200605F60 /* ChecklistSafe.swift */,
 				D5F5F50B2603F21300354E01 /* Calendar.swift */,
+				D54F1CA926098CF800605F60 /* CalendarMonth.swift */,
+				D54F1CD926099E6100605F60 /* CalendarWeek.swift */,
+				D54F1CE126099E7000605F60 /* CalendarDay.swift */,
 				D5F5F5102603F22000354E01 /* Settings.swift */,
 				D5F5D72426000EBB0003FC25 /* Assets.xcassets */,
 				D5F5D72626000EBB0003FC25 /* LaunchScreen.storyboard */,
@@ -283,13 +295,17 @@
 			files = (
 				D5AE6BFD260410DC00410C5C /* HomeSafe.swift in Sources */,
 				D54F1C86260982FE00605F60 /* UITextVieww_Additions.swift in Sources */,
+				D54F1CE226099E7000605F60 /* CalendarDay.swift in Sources */,
+				D54F1C8F2609866200605F60 /* ChecklistSafe.swift in Sources */,
 				D5F5D71926000EB80003FC25 /* AppDelegate.swift in Sources */,
 				D5F5F5112603F22000354E01 /* Settings.swift in Sources */,
-				D5F5F5072603F17100354E01 /* Checklist.swift in Sources */,
 				D5F5F5022603F16600354E01 /* Home.swift in Sources */,
 				D54F1C85260982FE00605F60 /* SettingsSafe.swift in Sources */,
+				D54F1C902609866200605F60 /* Checklist.swift in Sources */,
 				D5F5D72326000EB80003FC25 /* ScheDuel.xcdatamodeld in Sources */,
 				D5F5D71B26000EB80003FC25 /* SceneDelegate.swift in Sources */,
+				D54F1CDA26099E6100605F60 /* CalendarWeek.swift in Sources */,
+				D54F1CAA26098CF800605F60 /* CalendarMonth.swift in Sources */,
 				D5F5F50C2603F21300354E01 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
